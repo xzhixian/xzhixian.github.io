@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Xzhixian.github.io : My Github Pages" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <title>Xzhixian.github.io</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Xzhixian.github.io by xzhixian</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/xzhixian">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/xzhixian">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Xzhixian.github.io</h1>
+            <h2>My Github Pages</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">Xzhixian.github.io</h1>
-          <h2 id="project_tagline">My Github Pages</h2>
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
 
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h1>
 <a name="%E8%BF%99%E6%98%AF%E4%B8%80%E5%8F%B7%E6%A0%87%E9%A2%98" class="anchor" href="#%E8%BF%99%E6%98%AF%E4%B8%80%E5%8F%B7%E6%A0%87%E9%A2%98"><span class="octicon octicon-link"></span></a>这是一号标题</h1>
 
@@ -195,13 +213,19 @@ This line is part of the same quote.</p>
 <p>This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the <em>same paragraph</em>.</p>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/xzhixian">xzhixian</a> can be found on <a href="https://github.com/xzhixian">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
               <script type="text/javascript">
@@ -214,7 +238,6 @@ This line is only separated by a single newline, so it's a separate line in the 
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
